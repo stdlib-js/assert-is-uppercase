@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-uppercase",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test if a value is an uppercase string.",
   "license": "Apache-2.0",
   "author": {
