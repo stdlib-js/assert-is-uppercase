@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/assert-is-uppercase",
+  "version": "0.0.0",
+  "description": "Test if a value is an uppercase string.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-uppercase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "is",
+    "isuppercase",
+    "uppercase",
+    "string",
+    "valid",
+    "validate",
+    "test"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
