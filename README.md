@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isUppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-uppercase@deno/mod.js';
+import isUppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-uppercase@v0.1.0-deno/mod.js';
 ```
 
 #### isUppercase( value )
@@ -78,7 +78,7 @@ bool = isUppercase( 'salt and light' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isUppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-uppercase@deno/mod.js';
+import isUppercase from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-uppercase@v0.1.0-deno/mod.js';
 
 var bool = isUppercase( 'HELLO' );
 // returns true
