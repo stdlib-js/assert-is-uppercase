@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,57 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isUppercase = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isUppercase, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns `true` if provided an uppercase string', function test( t ) {
-	var values;
-	var bool;
-	var i;
-
-	values = [
-		'HELLO WORLD!',
-		'JUST WAIT, SOON YOU WILL REST AS WELL.'
-	];
-
-	for ( i = 0; i < values.length; i++ ) {
-		bool = isUppercase( values[ i ] );
-		t.strictEqual( bool, true, 'returns true when provided '+values[ i ] );
-	}
-	t.end();
-});
-
-tape( 'the function returns `false` if not provided an uppercase string', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		'abc',
-		'Hello World',
-		'',
-		'1139094843',
-		'!',
-		void 0,
-		0,
-		NaN,
-		null,
-		false,
-		true,
-		[],
-		{},
-		function noop() {}
-	];
-
-	for ( i = 0; i < values.length; i++ ) {
-		t.strictEqual( isUppercase( values[i] ), false, 'returns false when provided '+values[i] );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
